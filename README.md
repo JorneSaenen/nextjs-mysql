@@ -16,7 +16,7 @@
     INSERT INTO posts(title,content) VALUES ('Post title 5','Post body 5');
 
 #### Packages used
-Yarn
+#### Yarn
 - https://yarnpkg.com/package/serverless-mysql
-NPM
+#### NPM
 - https://www.npmjs.com/package/serverless-mysql
