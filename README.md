@@ -5,12 +5,18 @@
 ###  posts to import in mysql db for testing
     DROP TABLE IF EXISTS `posts`;
     CREATE TABLE posts(
-    title VARCHAR(44) NOT NULL PRIMARY KEY
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,  
+    title VARCHAR(44) NOT NULL
     ,content VARCHAR(49) NOT NULL
     );
-    INSERT INTO posts(title,content) VALUES ('This is all about end points','This is all about api end 	points111');
-    INSERT INTO posts(title,content) VALUES ('How to guide on SSR','This is all about server side rendering');
-    INSERT INTO posts(title,content) VALUES ('My first post','This is my first post..I have nothing much to say');
-    INSERT INTO posts(title,content) VALUES ('A post','Yet another post');
-    INSERT INTO posts(title,content) VALUES ('Last years post','This post is from last year');
+    INSERT INTO posts(title,content) VALUES ('Post title 1','Post body 1');
+    INSERT INTO posts(title,content) VALUES ('Post title 2','Post body 2');
+    INSERT INTO posts(title,content) VALUES ('Post title 3','Post body 3');
+    INSERT INTO posts(title,content) VALUES ('Post title 4','Post body 4');
+    INSERT INTO posts(title,content) VALUES ('Post title 5','Post body 5');
 
+#### Packages used
+Yarn
+- https://yarnpkg.com/package/serverless-mysql
+NPM
+- https://www.npmjs.com/package/serverless-mysql
