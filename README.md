@@ -1,4 +1,4 @@
-#  Testing mysql with nextjs using serverless-mysql
+#  mysql with nextjs using serverless-mysql
 
 ###  .env.local.template needs to be renamed to .env.local and input your db settings
 
